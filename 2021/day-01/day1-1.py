@@ -5,7 +5,7 @@ count = 0
 previous = -1
 for line in lines:
     current = int(line)
-    if current > previous:
+    if previous != -1 and current > previous:
         count += 1
     
     previous = current

@@ -8,6 +8,7 @@ int main()
     int previous = INT_MIN;
     int current = 0;
     std::ifstream file("input.txt");
+    file >> previous;
     while (file >> current)
     {
         if (current > previous)
