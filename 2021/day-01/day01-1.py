@@ -11,4 +11,3 @@ for line in lines:
     previous = current
 
 print("{}".format(count))
-

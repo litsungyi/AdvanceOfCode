@@ -2,7 +2,7 @@
 #include <fstream>
 #include <climits>
 
-int main()
+int main(int argc, char** argv)
 {
     int count = 0;
     int previous = INT_MIN;
@@ -23,4 +23,3 @@ int main()
 
     return 0;
 }
-
