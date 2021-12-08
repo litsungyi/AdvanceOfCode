@@ -1,0 +1,6 @@
+FROM gcc:latest
+
+VOLUME ["/usr/src/app"]
+WORKDIR /usr/src/app
+
+CMD ["g++" "-o" "main.o" "main.cpp" "&&" "./main.o"]
