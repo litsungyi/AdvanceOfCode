@@ -6,4 +6,8 @@ then
     exit 1
 fi
 
-pyenv exec python "./2022/day-$1/day-$1-$2.py"
+YEAR=2022
+DAY="$1"
+PART="$2"
+
+pyenv exec python "./${YEAR}/day-${DAY}/day-${DAY}-${PART}.py"
