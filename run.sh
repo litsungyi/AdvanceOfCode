@@ -6,7 +6,7 @@ then
     exit 1
 fi
 
-YEAR=2022
+YEAR=2023
 DAY="$1"
 PART="$2"
 

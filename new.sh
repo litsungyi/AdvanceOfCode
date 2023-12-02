@@ -6,13 +6,10 @@ then
     exit 1
 fi
 
-YEAR=2022
+YEAR=2023
 DAY="$1"
 
-if [[ ! -d "${YEAR}/day-${DAY}" ]]
-then
-    mkdir "${YEAR}/day-${DAY}"
-fi
+mkdir -p "${YEAR}/day-${DAY}"
 
 if [[ ! -e "${YEAR}/day-${DAY}/day-${DAY}-1.py" ]]
 then
