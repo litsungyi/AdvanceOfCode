@@ -1,6 +1,4 @@
-
 def get_number(number_string):
-    print(number_string)
     return int(number_string)
 
 def parse_number(number_string):
@@ -52,7 +50,6 @@ for number in parts["numbers"]:
     for symbol in parts["symbols"]:
         if is_adjacent(number, symbol):
             sum += number["number"]
-            print(number["number"])
             break
 
 print(sum)
